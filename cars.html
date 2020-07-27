@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+	<style type="text/css">
+		.car{
+			display: block;
+			font-size: 200px;
+			color: red;
+			margin: 0px;
+			padding: 0px;
+
+		}
+		.car1{
+			position: absolute;
+			top: 250px;
+			animation: car 3s infinite;
+		}
+		.car2{
+			position: absolute;
+			top: 300px;
+			animation: car 5s infinite;
+		}
+		.car3{
+			position: absolute;
+			top: 350px;
+			animation: car 7s infinite;
+		}
+		 @keyframes car {
+			from { left:0px; }
+			to {left:1100px;}
+		}
+	</style>
+</head>
+<body>
+	<section>
+	    <img src="car.jpg" width="1300" height="600" style="position: absolute; z-index: -1;">
+	    <img src="car1.png" class="car car1" height="200">
+	   <img src="car2.png" class="car car2" height="200">
+	   <img src="car3.png" class="car car3" height="200">
+
+    </section>
+
+</body>
+</html>

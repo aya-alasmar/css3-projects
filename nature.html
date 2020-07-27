@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	
+	.butterfly{
+		position: relative;
+		top: 100px;
+		left: 20px;
+		animation: butterfly 10s infinite;}
+
+		@keyframes butterfly {
+			  0% {top: 100px; left:20px; }
+			  5%  {top: 120px; left:60px; }
+			  10% {top: 140px; left:80px; }
+			  15% {top: 120px; left:120px; }
+			  20% {top: 100px; left:160px; }
+			  25%  {top: 120px; left:180px; }
+			  30% {top: 140px; left:220px; }
+			  35% {top: 120px; left:260px; }
+			  40% {top: 100px; left:300px; }
+			  45% {top: 120px; left:360px; }
+			  50%  {top: 140px; left:400px;}
+			  50% {top: 120px; left:460px; }
+			  55% {top: 100px; left:500px; }
+			  60% {top: 120px; left:540px; }
+			  65% {top: 140px; left:580px; }
+			  70% {top: 120px; left:620px; }
+			  75% {top: 100px; left:680px; }
+			  80% {top: 120px; left:720px; }
+			  85% {top: 140px; left:780px; }
+			  90%  {top: 120px; left:920px; }
+			  95% {top: 100px; left:960px; }
+			  100% {top: 120px; left:1120px; }
+			}
+
+			  .human{
+			  	position: absolute;
+			  	bottom:150px;
+			  	right: 140px;
+			  	
+			   animation: human 10s ;
+			  }
+			 @keyframes human{
+			 	0%{ right:150px;bottom: 150px; width: 120px; height: 150px; }
+			 	5%{ right:160px;bottom: 140px; width: 130px; height: 160px; }
+			 	10%{ right: 170px;bottom: 130px; width: 140px; height: 170px; }
+			 	20%{ right: 180px;bottom: 120px; width: 150px; height: 180px; }
+			 	30%{ right: 190px;bottom: 110px; width: 160px; height: 190px; }
+			 	40%{ right: 200px;bottom: 100px; width: 170px; height: 200px; }
+			 	50%{ right: 210px;bottom: 90px; width: 180px; height: 210px; }
+			 	60%{ right: 220px;bottom: 80px; width: 190px; height: 220px; }
+			 	70%{ right: 230px;bottom: 70px; width: 200px; height: 230px; }
+			 	80%{ right: 240px;bottom: 60px; width: 210px; height: 240px; }
+			 	90%{ right: 250px;bottom: 50px; width: 220px; height: 250px; }
+			 	100%{ right: 260px;bottom: 40px; width: 230px; height: 260px; }
+			 }
+
+	
+</style>
+<body>
+<div>
+	<img src="nature.jpg" width="1300" height="600" style="position: absolute; z-index: -1;">
+	 <img src="butterfly.png" class="butterfly" >
+	 <img src="human.png"  width="120" height="150" class="human">
+
+</div>
+</body>
+</html>

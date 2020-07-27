@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{background-color: #000;}
+		.circle{
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			background-color: #fff;
+			border :10px solid #00bfbf;
+			position: absolute;
+			top: 170px;
+			left: 340px;
+		}
+		.time{
+			width: 250px;
+            height: 250px;
+			background-color: #fff;
+			margin: 200px;
+			padding: 10px;
+			border-radius: 50%;
+			border :20px solid #00bfbf;
+
+		}
+		.dot{
+			width: 15px;
+			height:15px;
+			border-radius: 50%;
+			background-color: #00bfbf;
+			position: relative;
+			top: 290px;
+			left: 345px;
+			position:fixed;
+		}
+		  .nav2{
+		  
+		  	background-color: #00bfbf;
+		  	height: 45px; 
+
+
+		  }
+         .nav1{
+         	width: 5px;
+         	height:90px;
+         	position: relative;
+         	top: 75px;
+         	left: 112px;
+         	animation: time 2s infinite;
+         }
+         
+         .time:hover .nav1{
+         	 animation-play-state: paused ;
+         }
+		@keyframes time{
+          from{  transform: rotate(0deg);}
+          to { transform: rotate(-360deg);}
+		}
+	</style>
+</head>
+<body>
+	<div class="circle"></div>
+ <div class="time">
+ 	<div class="time2">
+ 		<nav class="dot"></nav> 
+ 		<nav class="nav1"><div class="nav2"> </div></nav>
+ 	</div>
+ </div>
+</body>
+</html>
